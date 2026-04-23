@@ -15,7 +15,7 @@ return Temp;
 
 int main(void) {
   double temp_celsius = 0;
-
+  printf("Temperatur in Grad Fahrenheit");
   scanf("%lf", &temp_celsius);
 
   printf("%lf", Celsius2Fahrenheit(temp_celsius));
